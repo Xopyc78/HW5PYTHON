@@ -5,7 +5,8 @@
 # A = 2; B = 3 -> 8
 
 
-def exponentiation(basis, multiplier):
+def exponentiation(basis: int, multiplier: int) -> int:
+    """"Принимает на вход два целых числа и возводит первое число в степень второго"""
     if multiplier == 0:
         return 1
     if multiplier != 0:
